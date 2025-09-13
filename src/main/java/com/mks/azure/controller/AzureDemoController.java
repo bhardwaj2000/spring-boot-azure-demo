@@ -11,6 +11,6 @@ public class AzureDemoController {
 
     @GetMapping("/deploy/azure")
     public ResponseEntity<String> getResponse(){
-        return ResponseEntity.ok("congratulations \uD83C\uDF89 you have deploy app on azure");
+        return ResponseEntity.ok("congratulations you have successfully deploy app on azure \uD83C\uDF89");
     }
 }
